@@ -189,3 +189,32 @@ form p {
   display: flex;
   margin: 0px;
 }
+
+/* Support Stylinng */
+.section{
+  font-size: 14px;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 92%;
+  margin-bottom: 30px;
+}
+.section-c{
+  border: 1px solid #fceeee;
+  padding: 15px;
+}
+.fade{
+  color: #8d8181;
+}
+.bold{
+  color: black;
+  font-weight: 600;
+}
+button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 15px;
+}
+#btn-telegram {
+  color: white;
+  background-color: rgb(145, 145, 250);
+}
