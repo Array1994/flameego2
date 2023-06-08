@@ -1,6 +1,7 @@
 import React from "react";
-import CryptoList from "./components/CryptoList";
+import CryptoList from "./CryptoList";
 import "./crypto.css"
+import Footer from "./Footer";
 
  
 function Aside(){
@@ -8,6 +9,7 @@ function Aside(){
         <div id="aside">
             <h1>Dashboard</h1>
             <CryptoList/>   
+            <Footer/>
         </div>
         
     )

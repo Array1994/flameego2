@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "./Footer"
 function  Support(){
 return(
     <div className="settings-container">
@@ -22,6 +22,7 @@ return(
             </div>
             
         </div>
+        <Footer/>
     </div>
 )
 }

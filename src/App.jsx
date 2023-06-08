@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { Link, Routes, Route } from 'react-router-dom'
 import Header from "./Header.jsx"
-import Menu from "./Menu.jsx"
-import Aside from "./Aside.jsx"
+import Aside from "./components/Aside.jsx"
 import Support from './components/Support.jsx'
 import Settings from './components/Settings.jsx'
 import Strategy from './components/Strategy.jsx'

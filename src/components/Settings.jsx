@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {Link} from "react-router-dom"
-
+import Footer from "./Footer";
 function  Settings(){
     const [formData, setFormData] = useState({
         fname : "Akintola",
@@ -50,7 +50,7 @@ return(
             <button id="setting-submit" onClick={handleSubmit}><div  className="inside"><h5>Update</h5> <img   src="/arrow-down.png"/></div></button>
         </form>
         </div>
-
+        <Footer/>
     </div>
   
 )

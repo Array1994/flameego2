@@ -48,7 +48,7 @@ h3,h1,h2,h4,h5{
 #menu {
   
   width: 25%;
-  height: 80vh;
+  height: 85vh;
   background-color: white ;
 }
 #menu p{
@@ -58,7 +58,7 @@ ul{
   padding: 0px;
 }
 #menu ul li{
-  width: 94%;
+  width: 91%;
   margin-top: 30px;
   padding-left: 20px;
   padding-top: 10px;
@@ -194,9 +194,9 @@ form p {
 .section{
   font-size: 14px;
   background-color: #ffffff;
-  padding: 30px;
+  padding: 25px;
   width: 92%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .section-c{
   border: 1px solid #fceeee;
@@ -217,4 +217,53 @@ button {
 #btn-telegram {
   color: white;
   background-color: rgb(145, 145, 250);
+}
+
+/* Footer Styling*/
+.footer{
+  font-size: 10px;
+  margin: 0;
+  border-top: 1px solid #fceeee;
+  width: 100%;
+  text-align: center;
+}
+.red {
+  color: #bb4035;
+}
+
+
+
+/*Strategy Styling */
+#section-s{
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 25px;
+  width: 35%;
+  margin-bottom: 20px;
+}
+#strategy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border: 2px dashed #bb4035;
+    padding: 50px;
+    font-size: 13px;
+}
+#strategy-container p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#plus-design{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #bb4035;
 }
