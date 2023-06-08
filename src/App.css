@@ -82,10 +82,9 @@ li:focus {
   width: 15px;
   cursor: pointer;
 }
-#aside{
+.aside{
   width: 72%;
   height: 80vh;
-  background-color: #ffffff ;
 }
 #menu-aside{
   display: flex;
@@ -132,4 +131,61 @@ li:focus {
 }
 #noti{
   cursor: pointer;
+}
+
+
+/* SETTING COMPONENT STYLING*/
+.settings-container{
+  width: 100%;
+  padding: 20px;
+}
+
+.setting-header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-right: 20px;
+  align-content: center;
+}
+.general-settings{
+  width: 90%;
+  padding: 25px;
+  height: 400px;
+  background-color: white;
+}
+.setting-form{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
+  grid-template-rows: auto, auto, auto, auto;
+  column-gap: 20px;
+  row-gap: 10px;
+
+}
+input{
+  height: 30px;
+  width: 95%;
+  padding-left: 15px;
+  color: #8a8585;
+}
+.danger {
+  color: red;
+}
+form p {
+  font-size: 12px;
+}
+#setting-submit {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(121, 43, 43);
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.inside{
+  display: flex;
+  margin: 0px;
 }

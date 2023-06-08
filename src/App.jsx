@@ -27,14 +27,14 @@ console.log(count)
 
             </ul>
         </div>
-
+      <div className='aside'>
         <Routes>
           <Route path='/' element={<Aside/>}/>
           <Route path='/strategy' element={<Strategy/>}/>
           <Route path='/support' element={<Support/>}/>
           <Route path='/settings' element={<Settings/>}/>
         </Routes>
-            
+      </div>
         
       </div>
      
