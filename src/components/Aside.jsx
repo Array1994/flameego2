@@ -9,7 +9,7 @@ function Aside(){
         <div id="aside">
             <h1>Dashboard</h1>
             <CryptoList/>   
-            <Footer/>
+        
         </div>
         
     )
