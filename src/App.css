@@ -70,14 +70,13 @@ ul{
   margin-right: 10px;
 
 }
+
 li:hover{
   background-color: #8a8585;
   border-left: 10px solid #98433B;
 }
-li:focus {
-  background-color: #504f4f;
-  border-left: 10px solid #98433B;
-}
+
+
 #down-arrow{
   width: 15px;
   cursor: pointer;
@@ -95,9 +94,12 @@ li:focus {
 .link{
   text-decoration: none;
 }
-.link:active {
-  background-color: green;
+.my-active {
+  color: green;
+  font-size: 24px;
+  text-decoration: none;
 }
+
  .drop {
   background-color: white;
   padding-left: 0px;
